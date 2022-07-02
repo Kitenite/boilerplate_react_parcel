@@ -1,1 +1,8 @@
-# boilerplate_react_parcel
+# parcel-react-tailwindcss-template
+
+## Usage
+
+```bash
+yarn install
+yarn start
+```

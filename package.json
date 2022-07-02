@@ -1,20 +1,26 @@
 {
-  "name": "resume_app",
+  "name": "parcel-react-tailwindcss-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal CodeSandbox template to use configurable Tailwind CSS with React v17",
   "scripts": {
-    "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel ./public/index.html",
+    "build": "npx parcel ./public/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  }
+    "@babel/core": "^7.12.3",
+    "@babel/preset-react": "^7.12.5",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "tailwind",
+    "tailwind css",
+    "tailwindcss"
+  ]
 }
